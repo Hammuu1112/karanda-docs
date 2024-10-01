@@ -6,10 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hammuu1112/karanda-guide.git"
+  },
+  "keywords": [
+    "karanda"
+  ],
   "author": "hammuu1112",
   "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Hammuu1112/karanda-guide/issues"
+  },
+  "homepage": "https://github.com/Hammuu1112/karanda-guide#readme",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.15",
+    "@vuepress/plugin-pwa": "^2.0.0-rc.47",
     "vuepress": "^2.0.0-rc.15",
     "vuepress-theme-plume": "^1.0.0-rc.104"
   }
