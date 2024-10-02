@@ -4,8 +4,6 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   lang: 'ko-KR',
-  title: 'Karanda Guide',
-  description: 'Karanda Guide | 카란다 가이드',
   head: [
     ['link', { rel: "icon", href: "/favicons/favicon.ico" }],
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicons/apple-touch-icon.png" }],
@@ -15,19 +13,63 @@ export default defineUserConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+  locales: {
+    '/': {
+      lang: 'ko-KR',
+      title: '카란다 Docs',
+      description: '카란다 Docs',
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'Karanda Docs',
+      description: 'Karanda Docs',
+    },
+  },
   theme: plumeTheme({
     logo: './karanda_logo.png',
-    navbar: [
-        {
-          text: 'start',
-          link: '/get-started/README.md'
-        },
+    plugins: {
+      search: {
+        locales: {
+          '/': {
+            placeholder: '찾아보기',
+          },
+          '/ko/': {
+            placeholder: '찾아보기',
+          },
+          '/en/': {
+            placeholder: 'Search',
+          }
+        }
+      }
+    },
+    locales:{
+      '/': {
+        home: '/',
+        selectLanguageName: '한국어',
+        navbar: [
+          {
+            text: '시작하기',
+            link: '/ko/get-started/'
+          }
+        ]
+      },
+      '/en/': {
+        home: '/en/',
+        selectLanguageName: 'English',
+        navbar: [
+          {
+            text: 'Get-started',
+            link: '/en/get-started/'
+          }
+        ]
+      }
+    },
+    social: [
+      { icon: 'discord', link: 'https://www.discord.com' }
     ],
-    lastUpdated: false,
-    contributors: false,
     footer: {
       message: 'Powered by Karanda',
-      copyright: 'Copyright © 2024 All Rights Reserved.'
+      copyright: 'Copyright © 2024-Present All Rights Reserved.'
     },
     blog: false
   }),

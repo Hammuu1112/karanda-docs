@@ -1,9 +1,11 @@
-export const redirects = JSON.parse("{\"/intro.html\":\"/article/12vb9kdl/\"}")
+export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
-  ["/article/12vb9kdl/", { loader: () => import(/* webpackChunkName: "article_12vb9kdl_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/article/12vb9kdl/index.html.js"), meta: {"title":"intro"} }],
-  ["/get-started/", { loader: () => import(/* webpackChunkName: "get-started_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/get-started/index.html.js"), meta: {"title":"Get-Started"} }],
+  ["/en/", { loader: () => import(/* webpackChunkName: "en_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/en/index.html.js"), meta: {"title":""} }],
+  ["/ko/", { loader: () => import(/* webpackChunkName: "ko_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/ko/index.html.js"), meta: {"title":""} }],
+  ["/en/get-started/", { loader: () => import(/* webpackChunkName: "en_get-started_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/en/get-started/index.html.js"), meta: {"title":"Get-started"} }],
+  ["/ko/get-started/", { loader: () => import(/* webpackChunkName: "ko_get-started_index.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/ko/get-started/index.html.js"), meta: {"title":"시작하기"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/workspaces/karanda-guide/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

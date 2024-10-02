@@ -1,4 +1,4 @@
-export const sidebar = {"/":{},"__auto__":{}}
+export const sidebar = {"/en/":{},"/":{},"__auto__":{}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
