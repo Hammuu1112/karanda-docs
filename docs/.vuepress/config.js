@@ -49,7 +49,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: '시작하기',
-            link: '/ko/get-started/'
+            link: '/ko/get-started/installation.md'
           }
         ]
       },
