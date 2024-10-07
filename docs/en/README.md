@@ -11,7 +11,7 @@ config:
       actions:
         - theme: brand
           text: Get-started
-          link: /en/get-started/
+          link: /en/docs/get-started/installation
         - theme: alt
           text: Download for Windows
           link: https://github.com/Hammuu1112/Karanda/releases/latest

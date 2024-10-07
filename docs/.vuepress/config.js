@@ -1,6 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
-import { plumeTheme } from 'vuepress-theme-plume'
+import { defineNotesConfig, plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   lang: 'ko-KR',
@@ -33,35 +33,55 @@ export default defineUserConfig({
           '/': {
             placeholder: '찾아보기',
           },
-          '/ko/': {
-            placeholder: '찾아보기',
-          },
           '/en/': {
             placeholder: 'Search',
           }
         }
       }
     },
-    locales:{
+    locales: {
       '/': {
-        home: '/',
         selectLanguageName: '한국어',
         navbar: [
           {
             text: '시작하기',
-            link: '/ko/get-started/installation.md'
+            link: '/docs/get-started/installation'
           }
-        ]
+        ],
+        sidebar: {
+          '/docs/': [
+            {
+              text: 'Get-started',
+              prefix: 'get-started',
+              collapsed: false,
+              items: [
+                {text: 'installation', link: 'installation'}
+              ]
+            }
+          ],
+        },
+        notes: false,
       },
       '/en/': {
-        home: '/en/',
         selectLanguageName: 'English',
         navbar: [
           {
             text: 'Get-started',
-            link: '/en/get-started/'
+            link: '/en/docs/get-started/installation/'
           }
-        ]
+        ],
+        sidebar: {
+          '/en/docs/': [
+            {
+              text: 'Get-started',
+              prefix: 'get-started',
+              items: [
+                {text: 'installation', link: 'installation'}
+              ]
+            }
+          ],
+        },
+        notes: false,
       }
     },
     social: [
@@ -71,7 +91,8 @@ export default defineUserConfig({
       message: 'Powered by Karanda',
       copyright: 'Copyright © 2024-Present All Rights Reserved.'
     },
-    blog: false
+    outline: [1, 6],
+    blog: false,
   }),
   bundler: viteBundler(),
 })

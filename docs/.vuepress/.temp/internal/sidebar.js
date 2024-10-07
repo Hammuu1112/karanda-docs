@@ -1,14 +1,1 @@
-export const sidebar = {"/en/":{},"/":{},"__auto__":{}}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSidebar) {
-    __VUE_HMR_RUNTIME__.updateSidebar(sidebar)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ sidebar }) => {
-    __VUE_HMR_RUNTIME__.updateSidebar(sidebar)
-  })
-}
+export const sidebar = {"/en/":{"/en/docs/":[{"text":"Get-started","prefix":"get-started","items":[{"text":"installation","link":"installation"}]}]},"/":{"/docs/":[{"text":"Get-started","prefix":"get-started","collapsed":false,"items":[{"text":"installation","link":"installation"}]}]},"__auto__":{}}
