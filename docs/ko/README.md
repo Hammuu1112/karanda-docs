@@ -11,7 +11,7 @@ config:
       actions:
         - theme: brand
           text: 시작하기
-          link: /docs/get-started/installation
+          link: /ko/document/get-started/installation/
         - theme: alt
           text: Windows용 다운로드
           link: https://github.com/Hammuu1112/Karanda/releases/latest

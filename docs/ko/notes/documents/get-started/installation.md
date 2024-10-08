@@ -42,6 +42,15 @@ https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe
 ### 설치
 `SetupKaranda.exe`를 실행합니다.
 
+![./smart_screen.jpg](./smart_screen.jpg)
+
+**SmartScreen**이 뜨면 **추가 정보**를 눌러 실행하도록 합니다.
+
+:::tip 왜 SmartScreen이 차단하나요?
+**Karanda** 배포 패키지에는 코드 서명이 없으므로 위변조에 취약하기 때문입니다. 
+**Karanda**를 다운로드 할 때에는 꼭 **Karanda 사이트** 또는 [karanda Github](https://github.com/Hammuu1112/Karanda)를 이용해주세요!
+:::
+
 ### 업데이트
 **Karanda**는 실행 시 최신 버전 업데이트를 확인하며, 업데이트가 있을 경우 자동으로 진행합니다. **Karanda**를 최신버전으로 유지하기 위해서 주기적으로 **Karanda**를 재실행 하는게 좋습니다.
 
