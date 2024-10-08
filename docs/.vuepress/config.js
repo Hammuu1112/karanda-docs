@@ -104,7 +104,10 @@ export default defineUserConfig({
                 },
               ]
             }
-          ]
+          ],
+          outlineLabel: '현재 페이지',
+          nextPageLabel: '다음 페이지',
+          prevPageLabel: '이전 페이지',
         }
       },
     },

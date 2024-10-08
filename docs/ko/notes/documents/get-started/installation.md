@@ -8,6 +8,11 @@ permalink: /ko/document/get-started/installation/
 
 ## 웹에서 실행
 웹 브라우저를 통해 **Karanda**에 접속할 수 있습니다.
+
+```txt:no-line-numbers
+https://www.karanda.kr
+```
+
 <LinkCard title="Karanda" href="https://www.karanda.kr" description="https://www.karanda.kr" />
 
 ### PWA
@@ -22,6 +27,10 @@ permalink: /ko/document/get-started/installation/
 
 ### 다운로드
 최신 버전의 `SetupKaranda.exe`를 다운로드 합니다.
+
+```txt:no-line-numbers
+https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe
+```
 
 <LinkCard icon="line-md:download-outline-loop" title="SetupKaranda.exe" href="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" description="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" />
 

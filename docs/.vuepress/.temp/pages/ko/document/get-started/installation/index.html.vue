@@ -1,7 +1,9 @@
 <template><div><p><strong>Karanda</strong>는 웹과 Windows 데스크톱에서 실행할 수 있습니다.</p>
 <h2 id="웹에서-실행" tabindex="-1"><a class="header-anchor" href="#웹에서-실행"><span>웹에서 실행</span></a></h2>
 <p>웹 브라우저를 통해 <strong>Karanda</strong>에 접속할 수 있습니다.</p>
-<LinkCard title="Karanda" href="https://www.karanda.kr" description="https://www.karanda.kr" /><h3 id="pwa" tabindex="-1"><a class="header-anchor" href="#pwa"><span>PWA</span></a></h3>
+<div class="language-txt" data-ext="txt" data-title="txt"><button class="copy" title="코드 복사" data-copied="복사됨"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>https://www.karanda.kr</span></span></code></pre>
+
+</div><LinkCard title="Karanda" href="https://www.karanda.kr" description="https://www.karanda.kr" /><h3 id="pwa" tabindex="-1"><a class="header-anchor" href="#pwa"><span>PWA</span></a></h3>
 <p><strong>Karanda</strong>는 <a href="https://www.google.com/intl/ko_kr/chrome/" target="_blank" rel="noopener noreferrer">Chrome</a> 브라우저를 통해 App처럼 사용할 수 있는 PWA를 설치할 수 있습니다. 플랫폼별 설치 방법은 <a href="https://support.google.com/chrome/answer/9658361" target="_blank" rel="noopener noreferrer">Chrome 도움말 센터</a>에서 확인할 수 있습니다.</p>
 <div class="hint-container tip">
 <p class="hint-container-title">PWA란?</p>
@@ -11,7 +13,9 @@
 <p><strong>Karanda</strong>는 Windows11에서 빌드 및 테스트 되었습니다.</p>
 <h3 id="다운로드" tabindex="-1"><a class="header-anchor" href="#다운로드"><span>다운로드</span></a></h3>
 <p>최신 버전의 <code v-pre>SetupKaranda.exe</code>를 다운로드 합니다.</p>
-<LinkCard icon="line-md:download-outline-loop" title="SetupKaranda.exe" href="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" description="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" /><div class="hint-container tip">
+<div class="language-txt" data-ext="txt" data-title="txt"><button class="copy" title="코드 복사" data-copied="복사됨"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span>https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe</span></span></code></pre>
+
+</div><LinkCard icon="line-md:download-outline-loop" title="SetupKaranda.exe" href="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" description="https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe" /><div class="hint-container tip">
 <p class="hint-container-title">팁</p>
 <p>이전 버전의 Release 또한 살펴볼 수 있습니다.
 <a href="https://github.com/Hammuu1112/Karanda/releases" target="_blank" rel="noopener noreferrer">https://github.com/Hammuu1112/Karanda/releases</a></p>
