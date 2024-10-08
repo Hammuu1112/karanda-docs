@@ -5,19 +5,19 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: 카란다 Docs
-      tagline: 검은사막 편의성 도구
+      name: Karanda Docs
+      tagline: Immerse yourself in BDO!
       text: Powered by Karanda
       actions:
         - theme: brand
-          text: 시작하기
-          link: /docs/get-started/installation
+          text: Get-started
+          link: /en/docs/get-started/installation
         - theme: alt
-          text: Windows용 다운로드
+          text: Download for Windows
           link: https://github.com/Hammuu1112/Karanda/releases/latest
         - theme: alt
-          text: 웹브라우저에서 Karanda 열기
-          link: https://www.karanda.kr
+          text: Open Karanda in your browser
+          link: https://github.com/Hammuu1112/Karanda/releases/latest
   - type: features
     features:
       - title: Support Web & Windows

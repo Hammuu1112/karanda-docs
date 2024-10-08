@@ -1,1 +1,1 @@
-export const searchIndex = {"/": () => import('@internal/minisearchIndex/searchBox-default.js'),"/en/": () => import('@internal/minisearchIndex/searchBox-en.js')}
+export const searchIndex = {"/": () => import('@internal/minisearchIndex/searchBox-default.js'),"/ko/": () => import('@internal/minisearchIndex/searchBox-ko.js')}

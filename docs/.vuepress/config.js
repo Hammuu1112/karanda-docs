@@ -3,7 +3,6 @@ import { defineUserConfig } from 'vuepress'
 import { defineNotesConfig, plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  lang: 'ko-KR',
   head: [
     ['link', { rel: "icon", href: "/favicons/favicon.ico" }],
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicons/apple-touch-icon.png" }],
@@ -15,14 +14,14 @@ export default defineUserConfig({
   ],
   locales: {
     '/': {
-      lang: 'ko-KR',
-      title: '카란다 Docs',
-      description: '카란다 Docs',
-    },
-    '/en/': {
       lang: 'en-US',
       title: 'Karanda Docs',
       description: 'Karanda Docs',
+    },
+    '/ko/': {
+      lang: 'ko-KR',
+      title: '카란다 Docs',
+      description: '카란다 Docs',
     },
   },
   theme: plumeTheme({
@@ -31,58 +30,83 @@ export default defineUserConfig({
       search: {
         locales: {
           '/': {
+            placeholder: 'Search',
+          },
+          '/ko/': {
             placeholder: '찾아보기',
           },
-          '/en/': {
-            placeholder: 'Search',
-          }
         }
       }
     },
     locales: {
       '/': {
-        selectLanguageName: '한국어',
-        navbar: [
-          {
-            text: '시작하기',
-            link: '/docs/get-started/installation'
-          }
-        ],
-        sidebar: {
-          '/docs/': [
-            {
-              text: 'Get-started',
-              prefix: 'get-started',
-              collapsed: false,
-              items: [
-                {text: 'installation', link: 'installation'}
-              ]
-            }
-          ],
-        },
-        notes: false,
-      },
-      '/en/': {
         selectLanguageName: 'English',
         navbar: [
           {
-            text: 'Get-started',
-            link: '/en/docs/get-started/installation/'
+            text: 'Document',
+            link: '/document/get-started/installation/'
+          },
+          {
+            text: 'Posts',
+            link: '/blog/'
           }
         ],
-        sidebar: {
-          '/en/docs/': [
+        notes: {
+          dir: '/',
+          link: '/notes/',
+          notes: [
             {
-              text: 'Get-started',
-              prefix: 'get-started',
-              items: [
-                {text: 'installation', link: 'installation'}
+              dir: 'document',
+              link: '/document/',
+              sidebar: [
+                {
+                  text: 'get-started',
+                  prefix: 'get-started',
+                  collapsed: false,
+                  items: [
+                    { text: 'Installation', link: 'installation/' },
+                    { text: 'Account', link: 'account/' },
+                  ]
+                },
               ]
             }
-          ],
-        },
-        notes: false,
-      }
+          ]
+        }
+      },
+      '/ko/': {
+        selectLanguageName: '한국어',
+        navbar: [
+          {
+            text: '문서',
+            link: '/ko/document/get-started/installation/'
+          },
+          {
+            text: '포스트',
+            link: '/ko/blog/'
+          }
+        ],
+        notes: {
+          dir: '/ko/',
+          link: '/ko/notes/',
+          notes: [
+            {
+              dir: 'document',
+              link: '/document/',
+              sidebar: [
+                {
+                  text: '시작하기',
+                  prefix: 'get-started',
+                  collapsed: false,
+                  items: [
+                    { text: '설치', link: 'installation/' },
+                    { text: '사용자', link: 'account/' },
+                  ]
+                },
+              ]
+            }
+          ]
+        }
+      },
     },
     social: [
       { icon: 'discord', link: 'https://www.discord.com' }
@@ -92,7 +116,9 @@ export default defineUserConfig({
       copyright: 'Copyright © 2024-Present All Rights Reserved.'
     },
     outline: [1, 6],
-    blog: false,
+    blog: {
+      exclude: ['.vuepress/', '**/README.md'],
+    }
   }),
   bundler: viteBundler(),
 })
