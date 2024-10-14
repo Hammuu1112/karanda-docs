@@ -48,7 +48,7 @@ https://github.com/Hammuu1112/Karanda/releases/latest/download/SetupKaranda.exe
 
 :::tip 왜 SmartScreen이 차단하나요?
 **Karanda** 배포 패키지에는 코드 서명이 없으므로 위변조에 취약하기 때문입니다. 
-**Karanda**를 다운로드 할 때에는 꼭 **Karanda 사이트** 또는 [karanda Github](https://github.com/Hammuu1112/Karanda)를 이용해주세요!
+**Karanda**를 다운로드 할 때에는 꼭 **Karanda 사이트** 또는 [karanda Github](https://github.com/Hammuu1112/Karanda)를 이용해주세요!!
 :::
 
 ### 업데이트

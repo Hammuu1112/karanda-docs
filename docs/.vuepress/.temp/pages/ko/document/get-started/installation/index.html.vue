@@ -27,7 +27,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">왜 SmartScreen이 차단하나요?</p>
 <p><strong>Karanda</strong> 배포 패키지에는 코드 서명이 없으므로 위변조에 취약하기 때문입니다.
-<strong>Karanda</strong>를 다운로드 할 때에는 꼭 <strong>Karanda 사이트</strong> 또는 <a href="https://github.com/Hammuu1112/Karanda" target="_blank" rel="noopener noreferrer">karanda Github</a>를 이용해주세요!</p>
+<strong>Karanda</strong>를 다운로드 할 때에는 꼭 <strong>Karanda 사이트</strong> 또는 <a href="https://github.com/Hammuu1112/Karanda" target="_blank" rel="noopener noreferrer">karanda Github</a>를 이용해주세요!!</p>
 </div>
 <h3 id="업데이트" tabindex="-1"><a class="header-anchor" href="#업데이트"><span>업데이트</span></a></h3>
 <p><strong>Karanda</strong>는 실행 시 최신 버전 업데이트를 확인하며, 업데이트가 있을 경우 자동으로 진행합니다. <strong>Karanda</strong>를 최신버전으로 유지하기 위해서 주기적으로 <strong>Karanda</strong>를 재실행 하는게 좋습니다.</p>
