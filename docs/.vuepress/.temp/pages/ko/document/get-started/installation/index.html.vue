@@ -22,8 +22,8 @@
 </div>
 <h3 id="설치" tabindex="-1"><a class="header-anchor" href="#설치"><span>설치</span></a></h3>
 <p><code v-pre>SetupKaranda.exe</code>를 실행합니다.</p>
-<p><img src="@source/ko/notes/documents/get-started/smart_screen.jpg" alt="./smart_screen.jpg"></p>
 <p><strong>SmartScreen</strong>이 뜨면 <strong>추가 정보</strong>를 눌러 실행하도록 합니다.</p>
+<p><img src="@source/ko/notes/documents/get-started/smart_screen.jpg" alt="./smart_screen.jpg"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">왜 SmartScreen이 차단하나요?</p>
 <p><strong>Karanda</strong> 배포 패키지에는 코드 서명이 없으므로 위변조에 취약하기 때문입니다.
