@@ -1,1 +1,1 @@
-# karanda-guide
+# karanda-docs
