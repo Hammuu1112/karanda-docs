@@ -1,13 +1,12 @@
 ---
 title: 설치
-createTime: 2024/10/08 04:29:28
-permalink: /ko/document/get-started/installation/
+permalink: /ko/documents/get-started/installation/
 ---
 # 설치
 **Karanda**는 웹과 Windows 데스크톱에서 실행할 수 있습니다.
 
 ## 웹에서 실행
-웹 브라우저를 통해 **Karanda**에 접속할 수 있습니다.
+웹 브라우저를 통해 **Karanda**에 접속할 수 있습니다. 
 
 ```txt:no-line-numbers
 https://www.karanda.kr

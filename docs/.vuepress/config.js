@@ -38,13 +38,16 @@ export default defineUserConfig({
         }
       }
     },
+    autoFrontmatter: {
+      createTime: false,
+    },
     locales: {
       '/': {
         selectLanguageName: 'English',
         navbar: [
           {
             text: 'Document',
-            link: '/document/get-started/installation/'
+            link: '/documents/get-started/installation/'
           },
           {
             text: 'Posts',
@@ -56,8 +59,8 @@ export default defineUserConfig({
           link: '/notes/',
           notes: [
             {
-              dir: 'document',
-              link: '/document/',
+              dir: 'documents',
+              link: '/documents/',
               sidebar: [
                 {
                   text: 'Get-started',
@@ -86,7 +89,7 @@ export default defineUserConfig({
         navbar: [
           {
             text: '문서',
-            link: '/ko/document/get-started/installation/'
+            link: '/ko/documents/get-started/installation/'
           },
           {
             text: '포스트',
@@ -98,8 +101,8 @@ export default defineUserConfig({
           link: '/ko/notes/',
           notes: [
             {
-              dir: 'document',
-              link: '/document/',
+              dir: 'documents',
+              link: '/documents/',
               sidebar: [
                 {
                   text: '시작하기',
@@ -116,15 +119,16 @@ export default defineUserConfig({
                   collapsed: false,
                   items: [
                     { text: '선박 증축', link: 'ship-upgrading/', icon: 'fa6-solid:ship' },
+                    { text: '이벤트 캘린더', link: 'event-calendar/', icon: 'material-symbols:celebration-outline' },
                   ]
                 },
               ]
             }
           ],
-          outlineLabel: '현재 페이지',
-          nextPageLabel: '다음 페이지',
-          prevPageLabel: '이전 페이지',
-        }
+        },
+        outlineLabel: '현재 페이지',
+        nextPageLabel: '다음 페이지',
+        prevPageLabel: '이전 페이지',
       },
     },
     social: [
@@ -137,7 +141,8 @@ export default defineUserConfig({
     outline: [1, 6],
     blog: {
       exclude: ['.vuepress/', '**/README.md'],
-    }
+    },
+    lastUpdated: false
   }),
   bundler: viteBundler(),
 })
