@@ -19,33 +19,30 @@ config:
           text: 웹브라우저에서 Karanda 열기
           link: https://www.karanda.kr
   - type: features
-    title: Services
+    title: Featured services 주요 서비스
     features:
-      - title: Support Web & Windows
+      - title: 선박 증축
+        icon: 🚢
+        details: 중범선 증축 재료 기록, 남은일수 계산
+      - title: 이벤트 캘린더
+        icon: 🎉
+        details: 남은 기간을 쉽게 확인할 수 있는 이벤트 캘린더
+      - title: 광명석 조합식 검색기
+        icon: 🌟
+        details: 광명석 조합식과 효과를 검색
+      - title: 말 성장치 계산기
+        icon: 🦄
+        details: 말 능력치별 평균 성장치와 합계를 한눈에 확인
+      - title: 물물교환 계산기
+        icon: ⚓
+        details: 무게, 재료비, 교섭력 계산기
+      - title: 통합 거래소
+        icon: ⚖️
+        details: 실시간 거래소 데이터와 편리한 프리셋
+      - title: 월드 보스
+        icon: 😈
+        details: 월드 보스 정보 및 알림
+      - title: 오버레이
         icon: 💻
-        details: Karanda support Web & Windows desktop
-      - title: Lots of features
-        icon: 🛠️
-        details: Karanda has a wide range of tools
-      - title: Free to use
-        icon: 💕
-        details: Karanda is free
-  - type: image-text
-    title: 여러 플랫폼 지원
-    description: Web & Windows를 지원합니다
-    image: /karanda_logo.png
-    list:
-      - title: Windows
-        description: 강력한 오버레이와 함께하는 Windows Application
-      - title: Web
-        description: 인터넷이 되는곳 어디서든 접속할 수 있는 Web Application
-  - type: text-image
-    title: 여러 플랫폼 지원
-    description: Web & Windows를 지원합니다
-    image: /karanda_logo.png
-    list:
-      - title: Windows
-        description: 검은사막과 함께 실행할 수 있는 Windows Application
-      - title: Web
-        description: 인터넷이 되는곳 어디서든 접속할 수 있는 Web Application
+        details: 강력한 오버레이
 ---
