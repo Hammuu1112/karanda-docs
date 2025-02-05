@@ -30,3 +30,7 @@ permalink: /ko/documents/services/ship-upgrading/
 오른쪽 하단의 **일일퀘스트** 버튼을 통해 일일퀘스트 한 번 분량의 재료를 한번에 추가할 수 있습니다. 헤당 기능을 사용하기 전에 일일퀘스트로 추가될 재료의 종류와 추가되는 갯수의 설정값을 미리 확인하는게 좋습니다. 
 
 일일퀘스트에 대한 설정은 오른쪽 상단의 **<Icon name="material-symbols:construction"/>(설정)** 메뉴에서 진행할 수 있습니다.
+
+## 참고
+<LinkCard title="선박 증축 가이드" href="/ko/guides/ship-upgrading/" />
+

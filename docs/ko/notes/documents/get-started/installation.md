@@ -12,6 +12,10 @@ permalink: /ko/documents/get-started/installation/
 https://www.karanda.kr
 ```
 
+:::tip Tip
+최초 접속 시 네트워크 상황에 따라 로딩 시간이 오래 걸릴 수 있습니다.
+:::
+
 <LinkCard title="Karanda" href="https://www.karanda.kr" description="https://www.karanda.kr" />
 
 ### PWA
