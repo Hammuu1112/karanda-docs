@@ -14,7 +14,7 @@ config:
           link: /ko/documents/get-started/installation/
         - theme: alt
           text: Windows용 다운로드
-          link: https://github.com/Hammuu1112/Karanda/releases/latest
+          link: https://github.com/Hammuu1112/Karanda/releases/latest/
         - theme: alt
           text: 웹브라우저에서 Karanda 열기
           link: https://www.karanda.kr

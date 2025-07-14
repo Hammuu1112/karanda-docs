@@ -17,7 +17,7 @@ config:
           link: https://github.com/Hammuu1112/Karanda/releases/latest
         - theme: alt
           text: Open Karanda in your browser
-          link: https://github.com/Hammuu1112/Karanda/releases/latest
+          link: https://karanda.kr
   - type: features
     title: Featured services
     features:
