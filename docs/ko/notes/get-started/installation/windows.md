@@ -1,6 +1,6 @@
 ---
 title: Windows에서 설치
-permalink: /ko/get-started/installation/windwos
+permalink: /ko/get-started/installation/windwos/
 ---
 
 ## Windows에서 설치

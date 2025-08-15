@@ -1,6 +1,6 @@
 ---
 title: On Android
-permalink: /get-started/installation/android
+permalink: /get-started/installation/android/
 ---
 
 ## Android에서 설치

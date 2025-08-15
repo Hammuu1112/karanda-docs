@@ -1,6 +1,6 @@
 ---
 title: Android에서 설치
-permalink: /ko/get-started/installation/android
+permalink: /ko/get-started/installation/android/
 ---
 
 ## Android에서 설치

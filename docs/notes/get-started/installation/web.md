@@ -1,6 +1,6 @@
 ---
 title: On Web
-permalink: /get-started/installation/web
+permalink: /get-started/installation/web/
 ---
 
 ## Web에서 설치

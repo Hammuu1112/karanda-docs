@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { defineNotesConfig, plumeTheme } from 'vuepress-theme-plume'
+import { enNotes, koNotes } from './route.js'
 
 export default defineUserConfig({
   head: [
@@ -46,89 +47,37 @@ export default defineUserConfig({
         selectLanguageName: 'English',
         navbar: [
           {
-            text: 'Document',
-            link: '/documents/get-started/installation/'
+            text: 'Getting Started',
+            link: '/get-started/introduction/'
+          },
+          {
+            text: 'Feature Guide',
+            link: '/guides/ship-upgrading/'
           },
           {
             text: 'Posts',
             link: '/blog/'
           }
         ],
-        notes: {
-          dir: '/',
-          link: '/notes/',
-          notes: [
-            {
-              dir: 'documents',
-              link: '/documents/',
-              sidebar: [
-                {
-                  text: 'Get-started',
-                  prefix: 'get-started',
-                  collapsed: false,
-                  items: [
-                    { text: 'Installation', link: 'installation/' },
-                    { text: 'Account', link: 'account/' },
-                  ]
-                },
-                {
-                  text: 'Services',
-                  prefix: 'services',
-                  collapsed: false,
-                  items: [
-                    { text: 'Ship upgrading', link: 'ship-upgrading/', icon: 'fa6-solid:ship' },
-                  ]
-                },
-              ]
-            }
-          ]
-        }
+        notes: enNotes
       },
       '/ko/': {
         selectLanguageName: '한국어',
         navbar: [
           {
-            text: '문서',
-            link: '/ko/documents/get-started/installation/'
+            text: '시작하기',
+            link: '/ko/get-started/introduction/'
+          },
+          {
+            text: '사용 가이드',
+            link: '/ko/guides/ship-upgrading/'
           },
           {
             text: '포스트',
             link: '/ko/blog/'
           }
         ],
-        notes: {
-          dir: '/ko/',
-          link: '/ko/notes/',
-          notes: [
-            {
-              dir: 'documents',
-              link: '/documents/',
-              sidebar: [
-                {
-                  text: '시작하기',
-                  prefix: 'get-started',
-                  collapsed: false,
-                  items: [
-                    { text: '설치', link: 'installation/' },
-                    { text: '사용자', link: 'account/' },
-                  ]
-                },
-                {
-                  text: '서비스',
-                  prefix: 'services',
-                  collapsed: false,
-                  items: [
-                    { text: '선박 증축', link: 'ship-upgrading/', icon: 'fa6-solid:ship' },
-                    { text: '이벤트 캘린더', link: 'event-calendar/', icon: 'material-symbols:celebration-outline' },
-                  ]
-                },
-              ]
-            }
-          ],
-        },
-        outlineLabel: '현재 페이지',
-        nextPageLabel: '다음 페이지',
-        prevPageLabel: '이전 페이지',
+        notes: koNotes,
       },
     },
     social: [

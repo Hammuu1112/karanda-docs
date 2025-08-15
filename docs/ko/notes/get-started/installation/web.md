@@ -1,6 +1,6 @@
 ---
 title: Web에서 설치
-permalink: /ko/get-started/installation/web
+permalink: /ko/get-started/installation/web/
 ---
 
 ## Web에서 설치
